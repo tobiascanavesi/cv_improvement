@@ -1,12 +1,14 @@
-**Key Questions and Talking Points for Interview Preparation:**
+Based on the resume of Tobias Canavesi, here are some potential interview questions and talking points:
 
-1. Can you elaborate on your experience working as a Senior Data Scientist at Heyday? How did you utilize LangChain and LLM models to extract sales insights from the database?
-2. In your previous position at Accenture, you were involved in managing, architecting, and analyzing big data to generate significant business value. Can you provide an example of a project where you created high impact data models?
-3. You have a Ph.D. in Theoretical Physics and a BSc. in Astronomy. How do you think your background in these fields contributes to your problem-solving skills as a Data Scientist?
-4. Could you walk us through a project where you implemented machine learning models for demand forecasting? How did you analyze and compare the performance of these models?
-5. As an instructor at the Wolfram Summer School, what was your experience like working as a mentor? How did this opportunity contribute to your professional development?
-6. Your technical skills include Python, Wolfram, SQL, and Cloud platforms such as AWS, Azure, and GCP. Can you provide examples of projects where you utilized these technologies effectively?
-7. How do you approach collaboration in a multidisciplinary team, and why do you believe it is essential for the advancement of society?
-8. What is your life philosophy, "Every problem has a solution, even if the solution is in another problem"? How does this mindset influence your approach to problem-solving in your work?
+1. Can you elaborate on your experience working as a Senior Data Scientist at Heyday? Specifically, how did you utilize LangChain and LLM models to extract sales insights from the database?
+2. In your role at Heyday, how did you improve forecasting capabilities for over 7000 products using AI techniques? Can you provide an example of a successful forecasting project you worked on?
+3. Could you discuss your experience at Accenture as a Specialist Data Scientist? How did you manage and analyze big data to generate significant business value?
+4. As a Postgraduate professor at the University of Buenos Aires, what were some key topics you covered in the Machine Learning I course for the Artificial Intelligence Specialization Course?
+5. How do you approach problem-solving in your work, especially when it comes to data wrangling and data visualization?
+6. Can you talk about a project where you had to create a simulation and optimization model, such as the one you worked on for the mining industry in Canada?
+7. What motivated you to pursue a Ph.D. in Theoretical Physics and how has that background influenced your approach to Data Science?
+8. How do you stay updated with the latest trends and technologies in Data Science, especially in the areas of Machine Learning and Deep Learning?
+9. What has been the most challenging project you've worked on so far, and how did you overcome any obstacles you faced?
+10. How do you see yourself contributing to our team and organization based on your diverse background in Astronomy, Physics, and Data Science?
 
-These questions and talking points aim to help the candidate showcase their expertise, experience, and unique perspective in the upcoming interview.
+These questions and talking points aim to help Tobias Canavesi showcase his skills, experiences, and qualifications in alignment with the job requirements.
