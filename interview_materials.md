@@ -1,14 +1,14 @@
-Based on the resume of Tobias Canavesi, here are some potential interview questions and talking points:
+Based on the tailored resume of Tobias Canavesi and the job requirements, here are some potential interview questions and talking points to help the candidate highlight key aspects of their experience and skills:
 
-1. Can you elaborate on your experience working as a Senior Data Scientist at Heyday? Specifically, how did you utilize LangChain and LLM models to extract sales insights from the database?
-2. In your role at Heyday, how did you improve forecasting capabilities for over 7000 products using AI techniques? Can you provide an example of a successful forecasting project you worked on?
-3. Could you discuss your experience at Accenture as a Specialist Data Scientist? How did you manage and analyze big data to generate significant business value?
-4. As a Postgraduate professor at the University of Buenos Aires, what were some key topics you covered in the Machine Learning I course for the Artificial Intelligence Specialization Course?
-5. How do you approach problem-solving in your work, especially when it comes to data wrangling and data visualization?
-6. Can you talk about a project where you had to create a simulation and optimization model, such as the one you worked on for the mining industry in Canada?
-7. What motivated you to pursue a Ph.D. in Theoretical Physics and how has that background influenced your approach to Data Science?
-8. How do you stay updated with the latest trends and technologies in Data Science, especially in the areas of Machine Learning and Deep Learning?
-9. What has been the most challenging project you've worked on so far, and how did you overcome any obstacles you faced?
-10. How do you see yourself contributing to our team and organization based on your diverse background in Astronomy, Physics, and Data Science?
+1. Can you walk us through your experience as a Senior Data Scientist at Heyday, specifically focusing on the projects where you utilized LangChain, LLM models, and NLP techniques for extracting insights and automating workflows?
+2. How have you leveraged your skills in AI techniques, including machine learning and deep learning, to improve forecasting capabilities for over 7000 products at Heyday?
+3. In your role at Accenture as a Specialist Data Scientist, can you discuss a specific project where you managed, analyzed big data, and built data-driven business insights to generate significant business value?
+4. How have your educational background in Astronomy, Theoretical Physics, and specializations in Data Science and Deep Learning contributed to your success as a Data Scientist?
+5. Can you provide details about your experience in teaching Machine Learning I at the University of Buenos Aires and your role as a postgraduate professor?
+6. Tell us about a challenging project where you had to apply your problem-solving skills, programming in languages like Python and Mathematica, to create a solution from scratch to automation.
+7. How do you approach collaboration with multidisciplinary teams, and how has this approach contributed to successful project outcomes in your career?
+8. Share an example of a time when you had to adapt to a new task or problem quickly and how you effectively solved it using your versatile skills.
+9. Discuss your proficiency in cloud platforms like AWS, Azure, and GCP, and how you have utilized them in your previous roles to enhance data processing and analysis.
+10. Lastly, can you elaborate on your published research and any significant contributions you have made to the field of data science and AI, such as being recognized as an AI Hero by Accenture?
 
-These questions and talking points aim to help Tobias Canavesi showcase his skills, experiences, and qualifications in alignment with the job requirements.
+These questions and talking points aim to help Tobias Canavesi showcase his expertise, experience, and achievements that align with the job requirements for a Data Scientist position.

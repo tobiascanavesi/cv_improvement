@@ -9,16 +9,47 @@ load_dotenv()
 
 # Define the main function for the Streamlit app
 def main():
-    st.title("CV Improvement")
-    st.write("This app will help you improve your CV for a particular job search.")
-    #Write in bold that when the file is a pdf you will need to enter the api key, from llama cloud
-    st.markdown("**Note:** If you upload a PDF file, you will need to enter your LLAMA_CLOUD_API_KEY.")
+    st.set_page_config(page_title="CV Improvement", layout="wide")
     
-    job_search = st.text_area("Paste the job search here:").strip()
+    # Add the logo
+    logo_path = "logo.png"
+    st.image(logo_path, width=100)
+    
+    # Custom CSS for labels
+    st.markdown(
+        """
+        <style>
+        .custom-label {
+            font-size: 1rem; 
+            font-weight: Semi Bold;
+        }
+        .hidden-label {
+            display: none;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+    
+    # Centered title and description
+    st.markdown(
+        """
+        <div style="text-align: center;">
+            <h1>CV Improvement</h1>
+            <p class="custom-label">This app will help you improve your CV for a particular job search.</p>
+            <p style="color: yellow;">Note: If you upload a PDF file, you will need to enter your LLAMA_CLOUD_API_KEY.</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    
+    # Custom HTML for the labels
+    st.markdown('<p class="custom-label">Paste the job search here:</p>', unsafe_allow_html=True)
+    job_search = st.text_area("Enter job search", placeholder="Enter job description", label_visibility="collapsed").strip()
     job_search_string = f'"{job_search}"'
     
-    # Add a file uploader that accepts both markdown and PDF files
-    uploaded_file = st.file_uploader("Upload your CV (markdown or PDF)", type=["md", "pdf"])
+    st.markdown('<p class="custom-label">Upload your CV (Markdown or PDF):</p>', unsafe_allow_html=True)
+    uploaded_file = st.file_uploader("Upload CV", type=["md", "pdf"], label_visibility="collapsed")
     
     interview_material = st.checkbox("Show Interview Material")
     
@@ -61,16 +92,32 @@ def main():
                     st.markdown("### Tailored Resume")
                     st.markdown(tailored_resume)
                     
+                    # Download button for tailored resume
+                    st.download_button(
+                        label="Download Tailored Resume",
+                        data=tailored_resume,
+                        file_name="tailored_resume.md",
+                        mime="text/markdown"
+                    )
+                    
                     if interview_material:
                         interview_material_path = "interview_materials.md"
                         with open(interview_material_path, "r") as f:
                             interview_material = f.read()
                         st.markdown("### Interview Material")
                         st.markdown(interview_material)
+                        
+                        # Download button for interview material
+                        st.download_button(
+                            label="Download Interview Material",
+                            data=interview_material,
+                            file_name="interview_material.md",
+                            mime="text/markdown"
+                        )
                 else:
                     st.error("An error occurred during CV analysis.")
     else:
-        st.warning("Please upload your CV (markdown or PDF).")
-                
+        st.warning("Please upload your CV (Markdown or PDF).")
+
 if __name__ == "__main__":
     main()
