@@ -30,7 +30,7 @@ class Agents:
     def profile_builder(self):
         return Agent(
             role="Profile Builder",
-            goal="Do increditble research on job applicants"
+            goal="Do incredible research on job applicants"
                 "to help them stand out in the job market",
             verbose=True,
             tools=[SerperDevTool(), ScrapeWebsiteTool(), FileReadTool(file_path='/tmp/cv.md'),MDXSearchTool(mdx='/tmp/cv.md')],

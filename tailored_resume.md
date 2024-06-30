@@ -2,7 +2,7 @@
 
 Data Scientist, PhD
 
-tobiascanavesi@gmail.com | +5491132531117 | Buenos Aires, Argentina | tobiascanavesi | tcanavesi | tcanavesi.on.eek.co/ (Personal Website)
+tobiascanavesi@gmail.com | ... | Buenos Aires, Argentina | tobiascanavesi | tcanavesi | tcanavesi.on.eek.co/ (Personal Website)
 
 # SUMMARY
 
