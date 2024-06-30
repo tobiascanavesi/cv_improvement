@@ -1,73 +1,68 @@
 # TOBIAS CANAVESI
 
-Data Scientist, PhD
+Software Engineer, PhD
 
-tobiascanavesi@gmail.com | ... | Buenos Aires, Argentina | tobiascanavesi | tcanavesi | tcanavesi.on.eek.co/ (Personal Website)
+tobiascanavesi@gmail.com | +5491132531117 | Buenos Aires, Argentina | tobiascanavesi | tcanavesi | tcanavesi.on.eek.co/ (Personal Website)
 
-# SUMMARY
+# PERSONAL PROFILE
 
-Passionate Data Scientist with a background in Astronomy and a PhD in Theoretical Physics. Skilled in data wrangling, data visualization, and utilizing machine learning and deep learning tools to solve complex problems. Experienced in leading and collaborating with multidisciplinary teams to drive innovation and problem-solving.
+A dedicated Software Engineer with a PhD in Theoretical Physics, and a Bachelor's degree in Astronomy. I have a passion for technology, particularly Artificial Intelligence, and have accumulated extensive software development experience across various industries. My strengths lie in Python programming, data structures, algorithms, and developing accessible technologies.
 
-# WORK EXPERIENCE
+# SKILLS
 
-## Senior Data Scientist
-Heyday | December 2022 – Present | Remotely
+- Software Development: Proven experience in Python programming and developing accessible technologies.
+- Algorithms & Data Structures: Strong background in developing and implementing complex algorithms and data structures.
+- Collaboration: Ability to work in a team, either leading or being a part of it.
+- Cloud Technologies: Proficient in AWS, Azure, and GCP.
 
-- Developed an agent using LangChain and LLM models to extract sales insights from a database and integrate them into web applications.
-- Assisted in onboarding new candidates by developing a POC using LLMs and external knowledge.
-- Improved forecasting accuracy for over 7000 products by automating workflows and utilizing AI techniques.
-- Categorized invoices using NLP techniques and classification algorithms.
-- Led various projects from inception to automation.
+# EXPERIENCE
 
-## Specialist Data Scientist
+Senior Software Engineer
+
+Heyday | December 2022 – Ongoing | United States, Remotely
+
+- Conducted research and developed an agent (SQL-2-text) using LangChain and LLM models to extract sales insights from the database using natural language, integrating these insights into web applications. (Streamlit+Python+LangChain)
+- Conducted research and developed a POC to assist in the on boarding of new candidates using LLMs + external knowledge (RAG). (Python+LangChain)
+- Improved forecasting capabilities and accuracy for over 7000 products by utilizing AI techniques, including automating the entire workflow in Airflow.
+- Developed a solution for categorizing invoices using NLP techniques and classification algorithms.
+- Developed various projects from scratch to automation.
+- Automation of SQL queries and Python code using DAGs.
+
+Software Engineer
+
 Accenture | Nov 2021 – Dec 2022 | Buenos Aires, Argentina
 
-- Managed and analyzed big data to build data-driven business insights and high-impact data models.
-- Created models and processes to collect, distill, and interpret data for informed decision-making.
+- Managed, architected, and analyzed big data to build data-driven business insights and high-impact data models to generate significant business value.
+- Created models and processes to collect, distill, and interpret data with a view to aid better, more informed decision making.
 
 # EDUCATION
 
-- Ph.D. in Theoretical Physics, National University of La Plata, 2018 – 2023 (With Honors)
-- BSc. in Astronomy, National University of La Plata, 2013 – 2017
-- Data Science Specialization, Digital House, Mar 2021 – Sep 2021
-- Deep Learning Specialization, Deep Learning AI, Jan 2022 – Present
+Ph.D. in Theoretical Physics
 
-# SELECT EXPERIENCE
+National University of La Plata | 2018 – 2023 | Pass with Honors
 
-- Demand Forecasting, Airline Company (Chile), 2022
-- Simulation - Optimization, Mining Industry (Canada), 2022
-- Optimization, Mining Industry (Chile), 2022
-- Segmentation - Clustering, E-Commerce (LATAM), 2022
-- Demand Forecasting, Drinks company (Chile), 2021
+BSc. in Astronomy
 
-# TECHNICAL SKILLS
+National University of La Plata | 2019 – 2017
 
-- Python
-- Wolfram
-- SQL
-- Machine Learning
-- Deep Learning
-- Cloud Platforms (AWS, Azure, GCP)
+Data Science Specialization
 
-# CERTIFICATIONS
+Digital House | Mar 2021 – Sep 2021
 
-- Improving Deep Neural Networks: Hyperparameter Tuning, Regularization, and Optimization
-- Structuring Machine Learning Projects
-- Neural Networks and Deep Learning
-- Convolutional Neural Networks
-- Sequence Models
-- Databases and SQL for Data Science with Python
-- Introduction to Machine Learning in Production
+Deep Learning Specialization
+
+Deep Learning AI | Jan 2022 – No expiration date
 
 # LANGUAGES
 
-- English: Proficient
-- Spanish: Native
+English
 
-# AWARDS
+○ ○ ○ ○ ○
 
-Thank you for being an AI Hero - Client Value Creation, Accenture, Aug 2022
+Spanish
+
+○ ○ ○ ○ ○
 
 # PUBLISHED RESEARCH
 
-Visit my Google Scholar page: Tobias Canavesi
+Visit my google scholar page Tobias Canavesi

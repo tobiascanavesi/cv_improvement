@@ -10,7 +10,9 @@ from agents import Agents
 import os
 
 class CVApplication:
-    def __init__(self):
+    def __init__(self, serper_api_key, openai_api_key):
+        self.serper_api_key = serper_api_key
+        self.openai_api_key = openai_api_key
         self.tasks = Tasks()
         self.agents = Agents()
         self.cvapplication_crew = Crew(
@@ -42,5 +44,3 @@ class CVApplication:
             return tailored_resume
         else:
             return None
-        
-        

@@ -43,6 +43,14 @@ def main():
         unsafe_allow_html=True
     )
     
+    # Prompt user to enter API keys
+    serper_api_key = st.text_input("Enter your SERPER_API_KEY", type="password")
+    openai_api_key = st.text_input("Enter your OPENAI_API_KEY", type="password")
+    
+    if not serper_api_key or not openai_api_key:
+        st.warning("Please enter both your SERPER_API_KEY and OPENAI_API_KEY.")
+        return
+    
     # Custom HTML for the labels
     st.markdown('<p class="custom-label">Paste the job search here:</p>', unsafe_allow_html=True)
     job_search = st.text_area("Enter job search", placeholder="Enter job description", label_visibility="collapsed").strip()
@@ -84,7 +92,7 @@ def main():
         
         if submit_button:
             with st.spinner("Analyzing your CV..."):
-                cv_application = CVApplication()
+                cv_application = CVApplication(serper_api_key=serper_api_key, openai_api_key=openai_api_key)
                 
                 tailored_resume = cv_application.cv_application(job_search_string)
                 if tailored_resume:
@@ -103,14 +111,14 @@ def main():
                     if interview_material:
                         interview_material_path = "interview_materials.md"
                         with open(interview_material_path, "r") as f:
-                            interview_material = f.read()
+                            interview_material_content = f.read()
                         st.markdown("### Interview Material")
-                        st.markdown(interview_material)
+                        st.markdown(interview_material_content)
                         
                         # Download button for interview material
                         st.download_button(
                             label="Download Interview Material",
-                            data=interview_material,
+                            data=interview_material_content,
                             file_name="interview_material.md",
                             mime="text/markdown"
                         )
