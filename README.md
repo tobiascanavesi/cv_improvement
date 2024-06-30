@@ -4,6 +4,8 @@
 
 The CV Improvement App is a Streamlit application designed to help users enhance their CVs for specific job searches. By leveraging AI agents, the app analyzes job postings and personal CVs, tailoring them to better match job requirements. The app supports both Markdown and PDF CV formats, with PDF parsing powered by the LlamaParse library.
 
+![CV Improvement](/img/cv_improvement_pic.png)
+
 ## Features
 
 - **Job Search Integration:** Paste the job search description and let the app tailor your CV accordingly.
