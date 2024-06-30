@@ -6,6 +6,14 @@ The CV Improvement App is a Streamlit application designed to help users enhance
 
 ![CV Improvement](/img/cv_improvement_pic.png)
 
+To get the neccesaries API keys, you can visit the following links:
+
+Llama : https://cloud.llamaindex.ai/
+
+Open AI: https://platform.openai.com/
+
+Serper: https://serper.dev/
+
 ## Features
 
 - **Job Search Integration:** Paste the job search description and let the app tailor your CV accordingly.
