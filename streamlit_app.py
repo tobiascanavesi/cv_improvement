@@ -1,11 +1,11 @@
 #import os
 import streamlit as st
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from cv_application import CVApplication
 from llama_parse import LlamaParse
 
 # Load environment variables from .env file
-load_dotenv()
+#load_dotenv()
 
 # Define the main function for the Streamlit app
 def main():
