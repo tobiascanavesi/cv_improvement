@@ -1,4 +1,4 @@
-#import os
+import os
 import streamlit as st
 #from dotenv import load_dotenv
 from cv_application import CVApplication
@@ -46,6 +46,10 @@ def main():
     # Prompt user to enter API keys
     serper_api_key = st.text_input("Enter your SERPER_API_KEY", type="password")
     openai_api_key = st.text_input("Enter your OPENAI_API_KEY", type="password")
+    
+        # Set the environment variables
+    os.environ["SERPER_API_KEY"] = serper_api_key
+    os.environ["OPENAI_API_KEY"] = openai_api_key
     
     if not serper_api_key or not openai_api_key:
         st.warning("Please enter both your SERPER_API_KEY and OPENAI_API_KEY.")
