@@ -1,2 +1,7 @@
 # exclude env files
 .env
+.pkl
+# excluding folder db
+db/
+# excluding __pycache__ folder
+__pycache__/

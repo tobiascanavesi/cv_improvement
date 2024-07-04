@@ -6,7 +6,7 @@ from llama_parse import LlamaParse
 
 # Load environment variables from .env file
 #load_dotenv()
-
+os.environ["OPENAI_MODEL_NAME"]='gpt-3.5-turbo-0125'
 # Define the main function for the Streamlit app
 def main():
     st.set_page_config(page_title="CV Improvement", layout="wide")
