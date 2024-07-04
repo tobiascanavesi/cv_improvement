@@ -40,10 +40,9 @@ Serper: https://serper.dev/
     pip install -r requirements.txt
     ```
 
-4. **Create a `.env` file and add your API keys:**
+4. **You can change the selected open ai model in the file streamlit_app.py. As default is set to gpt-3.5-turbo.**
     ```
-    SERPER_API_KEY=your_api_key_here
-    OPENAI_API_KEY=your_api_key_here
+    os.environ["OPENAI_MODEL_NAME"]='gpt-3.5-turbo-0125'
     ```
 
 ## Usage
